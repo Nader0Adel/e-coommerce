@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .dark:active{
+    @apply text-yellow-500 font-bold 
+} */
+
+ 
+.active{
+    @apply text-red-700 text-xl font-bold 
+}
+
+    @layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
